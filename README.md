@@ -20,12 +20,11 @@
       </xs:schema>
 
 
-<p>The purpose of an XML Schema is to define the legal building blocks of an XML document: </p>
+
+<p>Why Learn XML Schema? </p>
 <ul>
-        <li>the elements and attributes that can appear in a document </li>
-        <li> the number of (and order of) child elements</li>
-        <li> data types for elements and attributes</li>
-        <li> default and fixed values for elements and attributes</li>
+        <li>In the XML world, hundreds of standardized XML formats are in daily use. </li>
+        <li> XML Schema is an XML-based (and more powerful) alternative to DTD.</li>
 </ul>
 
 
