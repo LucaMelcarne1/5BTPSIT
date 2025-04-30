@@ -22,7 +22,7 @@
 
 <p>The purpose of an XML Schema is to define the legal building blocks of an XML document: </p>
 <li>
-        <ul>the elements and attributes that can appear in a document </ul>
+        <ul>the elements and attributes that can appear in a document </ul></li>
         <ul> the number of (and order of) child elements</ul>
         <ul> data types for elements and attributes</ul>
         <ul> default and fixed values for elements and attributes</ul>
