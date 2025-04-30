@@ -4,8 +4,8 @@
 <p>An XML Schema describes the structure of an XML document.</p>
 <p>The XML Schema language is also referred to as XML Schema Definition (XSD).</p>
 <p>XSD Example</p>
-
-  <?xml version="1.0"?>
+<p><code>
+    <?xml version="1.0"?>
   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="note">
     <xs:complexType>
@@ -18,4 +18,6 @@
     </xs:complexType>
   </xs:element>
   </xs:schema>
+
+</code></p>
 
