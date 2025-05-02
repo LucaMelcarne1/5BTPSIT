@@ -53,6 +53,88 @@
     </ul>
 
 
+  <h1>XML Schema (XSD) Tutorial</h1>
+
+  <h2>1. What is XML Schema?</h2>
+  <p><strong>XML Schema</strong> defines the <em>structure and content</em> of an XML file. It ensures the XML is <strong>valid</strong> and follows certain rules.</p>
+  <p>File extension: <code>.xsd</code></p>
+
+  <h2>2. Linking XML to an XSD Schema</h2>
+  <pre><code>&lt;rootElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="schema.xsd"&gt;
+</code></pre>
+
+  <h2>3. Basic XSD Structure</h2>
+  <pre><code>&lt;xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;!-- element definitions here --&gt;
+&lt;/xs:schema&gt;
+</code></pre>
+
+  <h2>4. Defining a Simple Element</h2>
+  <pre><code>&lt;persona&gt;
+    &lt;nome&gt;Anna&lt;/nome&gt;
+&lt;/persona&gt;</code></pre>
+
+  <pre><code>&lt;xs:element name="persona"&gt;
+  &lt;xs:complexType&gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:element name="nome" type="xs:string"/&gt;
+    &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+&lt;/xs:element&gt;
+</code></pre>
+
+  <h2>5. Multiple Elements</h2>
+  <pre><code>&lt;persona&gt;
+  &lt;nome&gt;Anna&lt;/nome&gt;
+  &lt;cognome&gt;Rossi&lt;/cognome&gt;
+  &lt;nascita&gt;2005-03-10&lt;/nascita&gt;
+&lt;/persona&gt;</code></pre>
+
+  <pre><code>&lt;xs:sequence&gt;
+  &lt;xs:element name="nome" type="xs:string"/&gt;
+  &lt;xs:element name="cognome" type="xs:string"/&gt;
+  &lt;xs:element name="nascita" type="xs:date"/&gt;
+&lt;/xs:sequence&gt;
+</code></pre>
+
+  <h2>6. Attributes</h2>
+  <pre><code>&lt;persona id="P001"&gt;
+  &lt;nome&gt;Anna&lt;/nome&gt;
+&lt;/persona&gt;</code></pre>
+
+  <pre><code>&lt;xs:attribute name="id" type="xs:string" use="required"/&gt;
+</code></pre>
+
+  <h2>7. Optional and Repeated Elements</h2>
+  <pre><code>&lt;xs:element name="telefono" type="xs:string" minOccurs="0" maxOccurs="unbounded"/&gt;
+</code></pre>
+
+  <h2>8. Enumerations</h2>
+  <pre><code>&lt;xs:element name="sesso"&gt;
+  &lt;xs:simpleType&gt;
+    &lt;xs:restriction base="xs:string"&gt;
+      &lt;xs:enumeration value="M"/&gt;
+      &lt;xs:enumeration value="F"/&gt;
+    &lt;/xs:restriction&gt;
+  &lt;/xs:simpleType&gt;
+&lt;/xs:element&gt;
+</code></pre>
+
+  <h2>9. Pattern (Regex)</h2>
+  <p>Example for Italian Codice Fiscale:</p>
+  <pre><code>&lt;xs:element name="cf"&gt;
+  &lt;xs:simpleType&gt;
+    &lt;xs:restriction base="xs:string"&gt;
+      &lt;xs:pattern value="[A-Z0-9]{16}"/&gt;
+    &lt;/xs:restriction&gt;
+  &lt;/xs:simpleType&gt;
+&lt;/xs:element&gt;
+</code></pre>
+
+  <h2>10. Validate your XML</h2>
+  <p>You can use Exchanger XML Editor</p>
+
 <h4>FILE studenti.xml</h4>
 
             <?xml version="1.0" encoding="UTF-8"?>
