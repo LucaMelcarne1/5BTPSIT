@@ -29,12 +29,32 @@
 </ul>
 <h4>XML Schemas Support Data Types</h4>
 <p>One of the greatest strength of XML Schemas is the support for data types.</p>
+<ul>
+      <li>It is easier to describe allowable document content</li>
+      <li>It is easier to validate the correctness of data</li>
+      <li>It is easier to define data facets (restrictions on data)</li>
+      <li>It is easier to define data patterns (data formats)</li>
+      <li>It is easier to convert data between different data types</li>
+</ul>
 
-It is easier to describe allowable document content
-It is easier to validate the correctness of data
-It is easier to define data facets (restrictions on data)
-It is easier to define data patterns (data formats)
-It is easier to convert data between different data types
+<h4>Gli schemi XML utilizzano la sintassi XML</h4>
+<p>Un altro grande punto di forza degli schemi XML è che sono scritti in XML.</p>
+    <ul>
+        <li>Non devi imparare una nuova lingua</li>
+        <li>Puoi utilizzare il tuo editor XML per modificare i tuoi file Schema</li>
+        <li>Puoi utilizzare il tuo parser XML per analizzare i tuoi file Schema</li>
+        <li>Puoi manipolare il tuo schema con XML DOM</li>
+        <li>Puoi trasformare il tuo schema con XSLT</li>
+        <li>Gli schemi XML sono estensibili perché sono scritti in XML.</li>
+    </ul>
+<h4>Con una definizione di Schema estensibile puoi:</h4>
+    <ul>
+        <li>Riutilizza il tuo schema in altri schemi</li>
+        <li>Crea i tuoi tipi di dati derivati ​​dai tipi standard</li>
+        <li>Fare riferimento a più schemi nello stesso documento</li>
+    </ul>
+
+
 
 
 
