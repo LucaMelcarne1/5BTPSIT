@@ -37,21 +37,21 @@
       <li>It is easier to convert data between different data types</li>
 </ul>
 
-<h4>Gli schemi XML utilizzano la sintassi XML</h4>
-<p>Un altro grande punto di forza degli schemi XML è che sono scritti in XML.</p>
+<h4>XML Schemas use XML Syntax</h4>
+<p>Another great strength about XML Schemas is that they are written in XML.</p>
     <ul>
-        <li>Non devi imparare una nuova lingua</li>
-        <li>Puoi utilizzare il tuo editor XML per modificare i tuoi file Schema</li>
-        <li>Puoi utilizzare il tuo parser XML per analizzare i tuoi file Schema</li>
-        <li>Puoi manipolare il tuo schema con XML DOM</li>
-        <li>Puoi trasformare il tuo schema con XSLT</li>
-        <li>Gli schemi XML sono estensibili perché sono scritti in XML.</li>
+        <li>You don't have to learn a new language</li>
+        <li>You can use your XML editor to edit your Schema files</li>
+        <li>You can use your XML parser to parse your Schema files</li>
+        <li>You can manipulate your Schema with the XML DOM</li>
+        <li>You can transform your Schema with XSLT</li>
     </ul>
-<h4>Con una definizione di Schema estensibile puoi:</h4>
+<p>XML Schemas are extensible, because they are written in XML.</p>    
+<p>With an extensible Schema definition you can:</p>
     <ul>
-        <li>Riutilizza il tuo schema in altri schemi</li>
-        <li>Crea i tuoi tipi di dati derivati ​​dai tipi standard</li>
-        <li>Fare riferimento a più schemi nello stesso documento</li>
+        <li>Reuse your Schema in other Schemas</li>
+        <li>Create your own data types derived from the standard types</li>
+        <li>Reference multiple schemas in the same document</li>
     </ul>
 
 
