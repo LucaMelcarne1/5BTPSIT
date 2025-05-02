@@ -54,10 +54,10 @@
 
 
 <h4>FILE studenti.xml</h4>
+
             <?xml version="1.0" encoding="UTF-8"?>
             <studenti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                       xsi:noNamespaceSchemaLocation="studenti.xsd">
-            
                 <studente>
                     <cognome>Rossi</cognome>
                     <nome>Luca</nome>
