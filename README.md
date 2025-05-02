@@ -21,13 +21,13 @@
 
 
 
-<p>Why Learn XML Schema? </p>
+<h4>Why Learn XML Schema? </h4>
 <ul>
         <li>In the XML world, hundreds of standardized XML formats are in daily use. </li>
         <li>Many of these XML standards are defined by XML Schemas.</li>
         <li> XML Schema is an XML-based (and more powerful) alternative to DTD.</li>
 </ul>
-<p>XML Schemas Support Data Types</p>
+<h4>XML Schemas Support Data Types</h4>
 <p>One of the greatest strength of XML Schemas is the support for data types.</p>
 
 It is easier to describe allowable document content
