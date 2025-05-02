@@ -1,5 +1,5 @@
 # 5BTPSIT
-<h3>Argomento: XML schema</h3>
+<h3>XML schema: introduction</h3>
 <h4>What is an XML Schema?</h4>
 <p>An XML Schema describes the structure of an XML document.</p>
 <p>The XML Schema language is also referred to as XML Schema Definition (XSD).</p>
@@ -18,8 +18,6 @@
         </xs:complexType>
       </xs:element>
       </xs:schema>
-
-
 
 <h4>Why Learn XML Schema? </h4>
 <ul>
@@ -54,6 +52,40 @@
         <li>Reference multiple schemas in the same document</li>
     </ul>
 
+
+<h4>FILE studenti.xml</h4>
+            <?xml version="1.0" encoding="UTF-8"?>
+            <studenti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:noNamespaceSchemaLocation="studenti.xsd">
+            
+                <studente>
+                    <cognome>Rossi</cognome>
+                    <nome>Luca</nome>
+                    <dataNascita>2005-04-15</dataNascita>
+                    <sesso>M</sesso>
+                    <città>Milano</città>
+                    <prov>MI</prov>
+                </studente>
+            
+                <studente>
+                    <cognome>Bianchi</cognome>
+                    <nome>Anna</nome>
+                    <dataNascita>2004-11-02</dataNascita>
+                    <sesso>F</sesso>
+                    <città>Torino</città>
+                    <prov>TO</prov>
+                </studente>
+            
+                <studente>
+                    <cognome>Verdi</cognome>
+                    <nome>Marco</nome>
+                    <dataNascita>2003-07-23</dataNascita>
+                    <sesso>M</sesso>
+                    <città>Firenze</città>
+                    <prov>FI</prov>
+                </studente>
+            
+            </studenti>
 
 
 
