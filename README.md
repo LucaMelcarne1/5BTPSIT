@@ -58,34 +58,40 @@
             <?xml version="1.0" encoding="UTF-8"?>
             <studenti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                       xsi:noNamespaceSchemaLocation="studenti.xsd">
-                <studente>
+            
+                <studente id="S001">
                     <cognome>Rossi</cognome>
                     <nome>Luca</nome>
                     <dataNascita>2005-04-15</dataNascita>
                     <sesso>M</sesso>
                     <città>Milano</città>
                     <prov>MI</prov>
+                    <email>luca.rossi@example.com</email>
                 </studente>
             
-                <studente>
+                <studente id="S002">
                     <cognome>Bianchi</cognome>
                     <nome>Anna</nome>
                     <dataNascita>2004-11-02</dataNascita>
                     <sesso>F</sesso>
                     <città>Torino</città>
                     <prov>TO</prov>
+                    <telefono>0111234567</telefono>
                 </studente>
             
-                <studente>
+                <studente id="S003">
                     <cognome>Verdi</cognome>
                     <nome>Marco</nome>
                     <dataNascita>2003-07-23</dataNascita>
                     <sesso>M</sesso>
                     <città>Firenze</città>
                     <prov>FI</prov>
+                    <email>marco.verdi@example.com</email>
+                    <telefono>0557654321</telefono>
                 </studente>
             
             </studenti>
+
 
 
 
