@@ -1,5 +1,5 @@
 # 5BTPSIT
-<h3>XML schema: introduction (w3school)</h3>
+<h3>XML schema: introduction (w3schools)</h3>
 <h4>What is an XML Schema?</h4>
 <p>An XML Schema describes the structure of an XML document.</p>
 <p>The XML Schema language is also referred to as XML Schema Definition (XSD).</p>
