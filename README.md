@@ -53,19 +53,8 @@
         <li>Crea i tuoi tipi di dati derivati ​​dai tipi standard</li>
         <li>Fare riferimento a più schemi nello stesso documento</li>
     </ul>
-
-  <h4>XML Comunicazione dati sicura</h4> 
-    <p>Quando si inviano dati da un mittente a un destinatario, è essenziale che entrambe le parti abbiano le stesse "aspettative" riguardo al contenuto.
-    
-        Grazie agli schemi XML, il mittente può descrivere i dati in un modo comprensibile per il destinatario.
-        
-        Una data come: "03-11-2004" verrà interpretata, in alcuni paesi, come 3 novembre e in altri come 11 marzo.
-        
-        Tuttavia, un elemento XML con un tipo di dati come questo:
-        
-        <date type="date">2004-03-11</date>
-        
-        garantisce una comprensione reciproca del contenuto, poiché il tipo di dati XML "data" richiede il formato "AAAA-MM-GG".</p>
+<h4>XML Comunicazione dati sicura</h4> 
+<p>Quando si inviano dati da un mittente a un destinatario, è essenziale che entrambe le parti abbiano le stesse "aspettative" riguardo al contenuto. <br>Grazie agli schemi XML, il mittente può descrivere i dati in un modo comprensibile per il destinatario.<br>Una data come: "03-11-2004" verrà interpretata, in alcuni paesi, come 3 novembre e in altri come 11 marzo. Tuttavia, un elemento XML con un tipo di dati come questo:<date type="date">2004-03-11</date> garantisce una comprensione reciproca del contenuto, poiché il tipo di dati XML "data" richiede il formato "AAAA-MM-GG".</p>
 
 
 
