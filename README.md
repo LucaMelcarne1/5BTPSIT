@@ -1,5 +1,5 @@
 # 5BTPSIT
-<h3><a href="https://www.youtube.com/watch?v=1BjmZHRHDv0">YOUTUBE LESSON</a><h3>
+<h3>YOUTUBE LESSON<a href="https://www.youtube.com/watch?v=1BjmZHRHDv0"></a><h3>
 <h3>XML schema: introduction (w3schools)</h3>
 <h4>What is an XML Schema?</h4>
 <p>An XML Schema describes the structure of an XML document.</p>
