@@ -218,7 +218,7 @@
             
 
 <ol>
-  <li>Create groups of 2 people.</li>
+  <li>Create groups of 4 people.</li>
   <li>Read and discuss with the partner and possibly with the teacher support, the introduction and tutorial of xml schema.</li>
   <li>Copy the 2 student files (xml and xsd) local, test them with Exchanger XML Editor and comment on the xsd file.</li>
   <li>Create an xml, with associated schema, of the curriculum vitae.</li>
